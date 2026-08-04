@@ -92,7 +92,7 @@ using namespace std;
 
 int main()
 {
-  cout<<"pon la ruta del comic: ";
+  cout<<"Enter the path to your comic.: ";
   string comic;
   getline(cin, comic);
   ifstream archivo;
