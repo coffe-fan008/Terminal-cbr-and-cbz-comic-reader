@@ -5,24 +5,31 @@ common form of computer memory, dynamic random access memory (DRAM), a transisto
 transistor acts as a switch that lets the control circuitry on the memory chip read the capacitor or change its state.
 
 2. What are the physical aspects that involve on RAM?
+idk
 
 3. What are the mathematical aspects related to RAM?
+idk
 
 4. what is a buffer?
+idk
 
 5. What is a pointer?
+idk
 
 6. How binary works?
+idk
 
 7. What is dir on C++?
+idl
 
-8. How i use bit7z?
+8. How i use libarchive?
+idk
 
 9. What is base64?
 base64 is a binary-to-text encoding that use 64 printable characters to represent each 6-bit segment of a sequence of byte values
 
 10. How i can show the pictures using the kitty image protocols?
-
+idk
 
 
 
@@ -30,3 +37,4 @@ information from
 https://computer.howstuffworks.com/ram.htm
 https://sw.kovidgoyal.net/kitty/graphics-protocol/
 https://en.wikipedia.org/wiki/Base64
+https://github.com/libarchive/libarchive/wiki/LibarchiveIO
