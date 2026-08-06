@@ -13,6 +13,8 @@ Questions
 
 7. What is dir on C++?
 
-8. What is base64?
+8. How i use bit7z?
 
-9. How i can show the pictures using the kitty image protocols?
+9. What is base64?
+
+10. How i can show the pictures using the kitty image protocols?
