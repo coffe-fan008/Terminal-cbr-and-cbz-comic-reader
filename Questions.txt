@@ -16,5 +16,6 @@ Questions
 8. How i use bit7z?
 
 9. What is base64?
+base64 is a binary-to-text encoding that use 64 printable characters to represent each 6-bit segment of a sequence of byte values
 
 10. How i can show the pictures using the kitty image protocols?
