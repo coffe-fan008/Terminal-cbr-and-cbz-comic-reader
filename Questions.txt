@@ -1,6 +1,8 @@
 Questions 
 1. How RAM works?
-Random access memory (RAM), like the Daft Punk album, RAM is basically computer's short-term memory. Similar to a microprocessor, a memory chip is an integrated circuit (IC) made of millions of transistors and capacitors. In the most common form of computer memory, dynamic random access memory (DRAM), a transistor and a capacitor are paired to create a memory cell, which represents a single bit of data. The capacitor holds the bit of information — a 0 or a 1 The transistor acts as a switch that lets the control circuitry on the memory chip read the capacitor or change its state.
+Random access memory (RAM), like the Daft Punk album, RAM is basically computer's short-term memory. Similar to a microprocessor, a memory chip is an integrated circuit (IC) made of millions of transistors and capacitors. In the most
+common form of computer memory, dynamic random access memory (DRAM), a transistor and a capacitor are paired to create a memory cell, which represents a single bit of data. The capacitor holds the bit of information — a 0 or a 1 The
+transistor acts as a switch that lets the control circuitry on the memory chip read the capacitor or change its state.
 
 2. What are the physical aspects that involve on RAM?
 
