@@ -9,8 +9,10 @@ Questions
 
 5. What is a pointer?
 
-6. What is dir on C++?
+6. How binary works?
 
-7. What is base64?
+7. What is dir on C++?
 
-8. How i can show the pictures using the kitty image protocols?
+8. What is base64?
+
+9. How i can show the pictures using the kitty image protocols?
