@@ -1,0 +1,14 @@
+Questions 
+1. How ram works?
+
+2. What are the physical aspects that involve on RAM?
+
+3. what is a buffer?
+
+4. What is a pointer?
+
+5. What is dir on C++?
+
+6. What is base64?
+
+7. How i can show the pictures using the kitty image protocols?
