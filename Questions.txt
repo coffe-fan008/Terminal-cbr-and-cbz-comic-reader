@@ -1,5 +1,6 @@
 Questions 
 1. How RAM works?
+Random access memory (RAM), like the Daft Punk album, RAM is basically computer's short-term memory. Similar to a microprocessor, a memory chip is an integrated circuit (IC) made of millions of transistors and capacitors. In the most common form of computer memory, dynamic random access memory (DRAM), a transistor and a capacitor are paired to create a memory cell, which represents a single bit of data. The capacitor holds the bit of information — a 0 or a 1 The transistor acts as a switch that lets the control circuitry on the memory chip read the capacitor or change its state.
 
 2. What are the physical aspects that involve on RAM?
 
@@ -19,3 +20,11 @@ Questions
 base64 is a binary-to-text encoding that use 64 printable characters to represent each 6-bit segment of a sequence of byte values
 
 10. How i can show the pictures using the kitty image protocols?
+
+
+
+
+information from 
+https://computer.howstuffworks.com/ram.htm
+https://sw.kovidgoyal.net/kitty/graphics-protocol/
+https://en.wikipedia.org/wiki/Base64
