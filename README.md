@@ -1,4 +1,4 @@
-<img src="fist_try_menu.png" width="100%" align="center" />
+<img src="first_try_menu.png" width="100%" align="center" />
 Hi, this is a terminal-based comic book reader that I'm developing, but for now, it only functions as a decompressor and the menu dont't work 
 
 ### compile libarchive
