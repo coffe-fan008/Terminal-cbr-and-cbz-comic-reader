@@ -1,5 +1,5 @@
 Questions 
-1. How ram works?
+1. How RAM works?
 
 2. What are the physical aspects that involve on RAM?
 
