@@ -3,12 +3,14 @@ Questions
 
 2. What are the physical aspects that involve on RAM?
 
-3. what is a buffer?
+3. What are the mathematical aspects related to RAM?
 
-4. What is a pointer?
+4. what is a buffer?
 
-5. What is dir on C++?
+5. What is a pointer?
 
-6. What is base64?
+6. What is dir on C++?
 
-7. How i can show the pictures using the kitty image protocols?
+7. What is base64?
+
+8. How i can show the pictures using the kitty image protocols?
