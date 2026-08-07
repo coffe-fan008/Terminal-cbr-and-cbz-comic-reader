@@ -8,10 +8,10 @@ The reader will work using bit7z as a base to decompress the files to the ram an
 This is a really big project for me, because at first I thought it would be easy for a 14-year-old guy who likes comics and computers and who wanted to learn C++ But I realized that it wasn't and the truth is that I would like to finish it before going back to high school because it is a very interesting project, plus most of the comic readers are paid and ad-supported, so once I finish it for terminal I would like to port it with a graphical interface to Windows and Android, and also, if you read this, thank you very much for seeing my project
 
 ### compile libarchive
-If you want to try the libarchive program, You can compile it with this command: g++ libarchive-first-attempt.cpp -o program -Wall -lz -lbz2  -larchive
+If you want to try the libarchive program, You can compile it with this command: g++ libarchive-first-attempt.cpp -o program -larchive
 
 ### compile menu
-If you wan to try my non working menu you can compile it with this command g++ ncurses.cpp -o program2 -lncurses
+If you wan to try my non working menu you can compile it with this command g++ menu.cpp -o program2 -lncurses
 
 ### Dependencies:
 libarchive, kitty, bit7z, ncurses, and g++ or gcc
