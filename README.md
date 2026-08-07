@@ -14,4 +14,4 @@ If you want to try the libarchive program, You can compile it with this command:
 If you wan to try my non working menu you can compile it with this command g++ menu.cpp -o program2 -lncurses
 
 ### Dependencies:
-libarchive, kitty, bit7z, ncurses, and g++ or gcc
+libarchive, kitty, ncurses, and g++ or gcc
