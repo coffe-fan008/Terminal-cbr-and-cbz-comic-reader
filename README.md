@@ -1,8 +1,11 @@
 <img src="first_try_menu.png" width="100%" align="center" />
 
 <h3 align="left">
-Hi this is My personal project of a comic reader in cbr and cbz format for the Kitty terminal writed on C++ Currently I have started it but it is in a very early stage of development in which the C++ libraries are still being considered. But currently I have made a menu that does nothing yet and I also have made the base of the Archives decompressor made with libarchive. But this is very complex for me because I'm starting in C++ and I am 14 years old also on the end of the README You can find how to compile it and its dependencies
+Welcome to my terminal-based comic reader :) 
 </h3>
+
+Hi this is My personal project of a comic reader in cbr and cbz format for the Kitty terminal writed on C++ Currently I have started it but it is in a very early stage of development in which the C++ libraries are still being considered. But currently I have made a menu that does nothing yet and I also have made the base of the Archives decompressor made with libarchive. But this is very complex for me because I'm starting in C++ and I am 14 years old also on the end of the README You can find how to compile it and its dependencies
+
 
 <h3 align="left">
 The project will be completed in one or two months
