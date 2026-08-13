@@ -1,14 +1,8 @@
-#include <fstream>
 #include <iostream>
-#include <sys/types.h>
-#include <sys/stat.h>
 #include <archive.h>
 #include <archive_entry.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
+#include <locale.h>
 
 static int
 copy_data(struct archive *ar, struct archive *aw)
@@ -16,7 +10,7 @@ copy_data(struct archive *ar, struct archive *aw)
   int r;
   const void *buff;
   size_t size;
-  off_t offset;
+  la_int64_t offset;
 
   for (;;) {
     r = archive_read_data_block(ar, &buff, &size, &offset);
@@ -32,7 +26,7 @@ copy_data(struct archive *ar, struct archive *aw)
   }
 }
 
-static int
+static void
 extract(const char *filename)
 {
   struct archive *a;
@@ -49,12 +43,12 @@ extract(const char *filename)
 
   a = archive_read_new();
   archive_read_support_format_all(a);
+  archive_read_support_filter_all(a);
   ext = archive_write_disk_new();
   archive_write_disk_set_options(ext, flags);
   archive_write_disk_set_standard_lookup(ext);
   if ((r = archive_read_open_filename(a, filename, 10240)))
-//  if ((r = archive_read_open_memory(a, buff, sizeof(buff))))
-    return 1;
+    exit(1);
   for (;;) {
     r = archive_read_next_header(a, &entry);
     if (r == ARCHIVE_EOF)
@@ -62,7 +56,7 @@ extract(const char *filename)
     if (r < ARCHIVE_OK)
       fprintf(stderr, "%s\n", archive_error_string(a));
     if (r < ARCHIVE_WARN)
-      return 1;
+      exit(1);
     r = archive_write_header(ext, entry);
     if (r < ARCHIVE_OK)
       fprintf(stderr, "%s\n", archive_error_string(ext));
@@ -71,32 +65,30 @@ extract(const char *filename)
       if (r < ARCHIVE_OK)
         fprintf(stderr, "%s\n", archive_error_string(ext));
       if (r < ARCHIVE_WARN)
-        return 1;
+        exit(1);
     }
     r = archive_write_finish_entry(ext);
     if (r < ARCHIVE_OK)
       fprintf(stderr, "%s\n", archive_error_string(ext));
     if (r < ARCHIVE_WARN)
-      return 1;
+      exit(1);
   }
   archive_read_close(a);
   archive_read_free(a);
   archive_write_close(ext);
   archive_write_free(ext);
-  return 0;
+  std::cout<<"your file has been extracted"<<std::endl;
+  std::cout<<":)"<<std::endl;
 }
 
-//int main ( int argc, const char **argv )
-//
 using namespace std;
 
-int main()
-{
-  cout<<"Enter the path to your comic: ";
-  string comic;
-  getline(cin, comic);
-  ifstream archivo;
-  archivo.open(comic.c_str());
-  archivo.close();
-  return extract (comic.c_str());;
+int main(){
+	setlocale(LC_ALL, "");
+	//Print choose your files
+	cout<<"Put the path of your file to extract: ";
+	string comic;
+	getline(cin, comic);
+	extract (comic.c_str());
+	return 0;
 }
